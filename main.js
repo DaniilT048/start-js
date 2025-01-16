@@ -65,7 +65,7 @@ console.log(myPi);
 const myRounded = Math.round(89.279)
 console.log(myRounded);
 
-const myRandom = Math.random()*10;
+const myRandom = Math.round(Math.random()*10);
 console.log(myRandom);
 
 const myPow = Math.pow(3, 5);
